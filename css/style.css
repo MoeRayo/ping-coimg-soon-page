@@ -1,0 +1,56 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+body {
+    font-family: 'Libre Franklin', sans-serif;
+    box-sizing: border-box;
+}
+h1{
+    font-weight: 700;
+    font-size: 2.7rem;
+}
+.span{
+    color:hsl(0, 0%, 59%);
+    font-weight: 400;
+}
+header p{
+    font-size: 1.2rem;
+}
+input{
+    padding: 1rem 2rem;
+    width: 43%;
+    border:1px solid hsl(223, 100%, 88%);
+    color: hsl(223, 100%, 88%);
+}
+#btn{
+    padding: 1rem 2rem;
+    width: 20%;
+    font-weight: 600;
+    background-color: hsl(223, 87%, 63%);
+    border: 1px solid hsl(223, 87%, 63%);
+}
+/* #container{
+
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 5rem 0;
+
+} */
+/* 
+p{
+    padding: .3rem 0 1rem 0;
+}
+input{
+    padding: .6rem .3rem;
+}
+.email{
+    width: 35%;
+}
+.btn{
+    width: 23%;
+} */
