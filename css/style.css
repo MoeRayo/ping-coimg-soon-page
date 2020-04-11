@@ -33,6 +33,7 @@ input{
     background-color: hsl(223, 87%, 63%);
     border: 1px solid hsl(223, 87%, 63%);
     box-shadow: 3px 3px 8px 1px hsl(223, 100%, 88%);
+    margin-left: 1rem;
 }
 #btn:hover, #btn:active{
     background-color:  hsl(223, 91%, 71%);
@@ -65,3 +66,39 @@ input{
 .attribution a { 
     color: hsl(228, 45%, 44%); 
 }
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    input{
+        width: 63%;
+    }
+    #btn{
+        width: 30%;
+    }
+ }
+ @media (min-width: 576px) and (max-width: 767.98px) { 
+    h1{
+        font-size: 2rem;
+    }
+    input{
+      width: 100%;
+    }
+    #btn{
+        width: 100%;
+        margin:4rem 0  0;
+    }
+ }
+ @media (max-width: 575.98px) {
+    h1{
+        font-size: 2rem;
+    }
+    header p{
+        font-size: .9rem;
+    }
+    input{
+        width: 100%;
+      }
+      #btn{
+          width: 100%;
+          margin:4rem 0  0;
+      }
+}
+
