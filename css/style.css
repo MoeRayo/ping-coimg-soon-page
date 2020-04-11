@@ -32,31 +32,36 @@ input{
     font-weight: 600;
     background-color: hsl(223, 87%, 63%);
     border: 1px solid hsl(223, 87%, 63%);
+    box-shadow: 3px 3px 8px 1px hsl(223, 100%, 88%);
+}
+#btn:hover, #btn:active{
+    background-color:  hsl(223, 91%, 71%);
+    border: 1px solid hsl(223, 91%, 71%);
 }
 #image{
     margin: 5rem auto;
 }
-#svg{
-    /* background-color: ; */
+.icon{
+    display: inline-block;
+    margin-right: .8rem;
+    padding: .2rem .6rem;
+    border: 1px solid hsl(223, 100%, 88%);
+    border-radius: 50%;
 }
-/* #container{
-
-    width: 50%;
-    margin: 0 auto;
-    text-align: center;
-    padding: 5rem 0;
-
-} */
-/* 
-p{
-    padding: .3rem 0 1rem 0;
+.icon:nth-last-of-type(1){
+    margin-right: 0;
 }
-input{
-    padding: .6rem .3rem;
+.fa{
+    color: hsl(223, 87%, 63%);
 }
-.email{
-    width: 35%;
+.copyright{
+    color: hsl(0, 0%, 59%);
+    font-size: .8rem;
+    margin: 1.3rem 0;
 }
-.btn{
-    width: 23%;
-} */
+.attribution { 
+    font-size: 11px; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
