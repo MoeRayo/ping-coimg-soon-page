@@ -24,7 +24,15 @@ input{
     padding: 1rem 2rem;
     width: 43%;
     border:1px solid hsl(223, 100%, 88%);
-    color: hsl(223, 100%, 88%);
+    color:  hsl(209, 33%, 12%);
+}
+#success-message{
+    font-size: .8rem;
+    font-style: italic;
+    width: 40%;
+    text-align: left;
+    margin: 0 0 .5rem 13rem;
+    display: none;
 }
 #error-message{
     font-size: .8rem;
@@ -75,6 +83,9 @@ input{
     color: hsl(228, 45%, 44%); 
 }
 @media (min-width: 991px) and (max-width: 1199px) { 
+    #success-message{
+        margin: 0 0 .5rem 11rem;
+    }
     #error-message{
         margin: .5rem 0 0 11rem;
     }
@@ -85,6 +96,10 @@ input{
     }
     #subscribe-input{
         width: 30%;
+    }
+    #success-message{
+        width: 60%;
+        margin: 0 0 .5rem 3rem;
     }
     #error-message{
         width: 35%;
@@ -105,12 +120,17 @@ input{
     #input-container{
         position: relative;
     }
+    #success-message{
+        width: 100%;
+        margin: 0 0 .5rem 2rem;
+    }
     #error-message{
         width: 60%;
         position: absolute;
         top: 3.5rem;
         margin: .5rem 0 0 2rem;
     }
+    
  }
  @media (max-width: 575.98px) {
     h1{
@@ -128,13 +148,18 @@ input{
       }
       #input-container{
         position: relative;
-}
+    }
+    #success-message{
+        width: 100%;
+        margin: 0 0 .5rem 2rem;
+    }
       #error-message{
         width: 85%;
         margin: .5rem 0 0 1rem;
         position: absolute;
         top: 3.5rem;
       }
+     
         
 }
 
