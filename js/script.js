@@ -17,4 +17,4 @@ emailInput.addEventListener('blur',($event)=>{
     }
 });
 
-// moronfoulu.olufunke@yahoo.com
+// me.you@yahoo.com
